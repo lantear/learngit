@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="multithread" parallel="classes" thread-count="2">
+    <test name="multiThread">
+        <classes name="class1">
+            <class name="com.lantea.testng.multiThread.MultiThreadOnXml"></class>
+        </classes>
+    </test>
+    <test name="multiThread2">
+        <classes name="class2">
+            <class name="com.lantea.testng.multiThread.MultiThreadOnXml"></class>
+            <class name="com.lantea.testng.multiThread.MultiThreadOnXmlForClasses"></class>
+        </classes>
+    </test>
+    <!--<test name="multiThread3">
+        <classes name="class3">
+            <class name="com.lantea.testng.multiThread.MultiThreadOnXml"></class>
+        </classes>
+    </test>
+    <test name="multiThread4">
+        <classes name="class4">
+            <class name="com.lantea.testng.multiThread.MultiThreadOnXmlForClasses"></class>
+        </classes>
+    </test>-->
+</suite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/httpClient/httpClient.iml" filepath="$PROJECT_DIR$/httpClient/httpClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/learngit.iml" filepath="$PROJECT_DIR$/.idea/learngit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/report/report.iml" filepath="$PROJECT_DIR$/report/report.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testngstart1/testngstart1.iml" filepath="$PROJECT_DIR$/testngstart1/testngstart1.iml" />
+    </modules>
+  </component>
+</project>

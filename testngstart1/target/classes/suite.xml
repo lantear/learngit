@@ -1,0 +1,16 @@
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="suiteTest">
+    <test name="loginTest">
+        <classes>
+            <class name="com.lantea.testng.suite.SuiteConfig"></class>
+            <class name="com.lantea.testng.suite.LoginTest"></class>
+        </classes>
+    </test>
+    <test name="payTest">
+        <classes>
+            <class name="com.lantea.testng.suite.SuiteConfig"></class>
+            <class name="com.lantea.testng.suite.PayTest"></class>
+        </classes>
+    </test>
+</suite>

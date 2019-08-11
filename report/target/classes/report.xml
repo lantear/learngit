@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="testReport">
+    <test name="testUnit">
+        <classes>
+            <class name="com.lantea.report.AssertReportTest"></class>
+            <method>
+                <include name="test1"></include>
+                <include name="test1"></include>
+                <include name="test1"></include>
+                <include name="test1"></include>
+                <include name="logDemo"></include>
+            </method>
+        </classes>
+    </test>
+    <listeners>
+        <!--<listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
+        <listener class-name="util.ExtentTestNGIReporterListenerOld"/>
+    </listeners>
+</suite>
