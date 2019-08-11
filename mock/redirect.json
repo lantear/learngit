@@ -1,0 +1,25 @@
+[
+  {
+    "description" : "redirect for mock",
+    "request" : {
+      "uri": "/redirect"
+    },
+    "redirectTo" :"https://baidu.com"
+  },
+  {
+    "description" : "redirect for mock",
+    "request" : {
+      "uri": "/redirectLocal"
+    },
+    "redirectTo" :"/redirect/newPath"
+  },
+  {
+    "description" : "redirect for mock",
+    "request" : {
+      "uri": "/redirect/newPath"
+    },
+    "response" : {
+      "text":"重定向成功啦！！！"
+    }
+  }
+]

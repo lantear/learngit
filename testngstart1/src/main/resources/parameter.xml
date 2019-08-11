@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="parameterSuite">
+    <test name="parameterTest">
+        <classes>
+            <parameter name="name" value="张三"></parameter>
+            <parameter name="age" value="10"></parameter>
+            <class name="com.lantea.testng.parameters.ParameterTest"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="group4class">
+    <test name="testall">
+        <groups>
+            <run>
+                <include name="stu"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.lantea.testng.groups.GroupsOnClass1"></class>
+            <class name="com.lantea.testng.groups.GroupsOnClass2"></class>
+            <class name="com.lantea.testng.groups.GroupsOnClass3"></class>
+        </classes>
+    </test>
+
+    <!--<test name="testGroup4Class">
+        <classes>
+            <class></class>
+        </classes>
+    </test>-->
+</suite>

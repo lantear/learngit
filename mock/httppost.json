@@ -1,0 +1,26 @@
+[
+  {
+    "description": "post请求构造",
+    "request" : {
+      "uri": "/postdemo",
+      "method": "post"
+    },
+    "response" : {
+      "text" : "使用jmeter构造的post请求"
+    }
+  },
+  {
+    "description": "带有参数的post请求",
+    "request" : {
+      "uri": "/postWithParams",
+      "method": "post",
+      "forms": {
+        "name": "zhangSan",
+        "age": 19
+      }
+    },
+    "response" : {
+      "text" : "使用jmeter构造的post请求,带有参数的"
+    }
+  }
+]
