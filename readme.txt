@@ -8,3 +8,5 @@ Creating a new branch is quick and simple.
 
 just test new branch200118
 test
+
+test the conficts between branches and master
