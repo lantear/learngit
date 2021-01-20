@@ -8,3 +8,5 @@ Creating a new branch is quick and simple.
 
 just test new branch200118
 test
+
+master part: test conflict
