@@ -1,4 +1,6 @@
-hehhhehehheheheh
+git_test:
+system.out.print("branch1 in git_test direction")
+
 Git is a distributed version control system.
 Git is free software distributed under the GPL.
 Git has a mutable index called stage.
